@@ -1,3 +1,7 @@
 [submodule "email-service"]
 	path = email-service
 	url = https://github.com/F-Yousri/email-service
+	
+[submodule "product-catalog-service"]
+	path = product-catalog-service
+	url = https://github.com/F-Yousri/product-catalog-service
