@@ -4,6 +4,8 @@ build:
   artifacts:
     - image: product-catalog-service
       context: ./product-catalog-service/
+    - image: email-service
+      context: ./email-service
 deploy:
   kubectl:
     manifests:
@@ -12,3 +14,6 @@ portForward:
   - resourceType: deployment
     resourceName: product-catalog-service
     port: 80
+  - resourceType: deployment
+    resourceName: email-service
+    port: 8080
