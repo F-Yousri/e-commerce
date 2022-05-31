@@ -15,5 +15,5 @@ portForward:
     resourceName: product-catalog-service
     port: 80
   - resourceType: deployment
-    resourceName: email-service
-    port: 8080
+    resourceName: product-catalog-db-portal-deployment
+    port: 8081
